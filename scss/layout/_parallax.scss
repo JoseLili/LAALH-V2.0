@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sec1 {
+    background: url(../../src/img/Fondo\ de\ pantala.png);
+    background-position: bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+}
