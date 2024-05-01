@@ -22,10 +22,26 @@ h1 {
   font-style: normal;
 }
 
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
+
 h1 {
   color: #FFFFFF;
 }
 
 .tituloResalte {
   color: #D1A103;
+}
+
+p {
+  color: #FFFFFF;
+}
+
+.parrafoInicial {
+  padding-top: 20px;
+  padding-left: 10px;
 }/*# sourceMappingURL=main.css.map */
