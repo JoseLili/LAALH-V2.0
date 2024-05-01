@@ -29,6 +29,13 @@ p {
   font-size: 24px;
 }
 
+a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+}
+
 h1 {
   color: #FFFFFF;
 }
@@ -49,16 +56,16 @@ p {
 }
 
 .tituloEstandar {
-  padding-left: 15px;
+  padding-left: 12px;
 }
 
 .tituloEstandar1 {
   padding-top: 25px;
-  padding-left: 15px;
+  padding-left: 12px;
 }
 
 .tituloResalte {
-  padding-left: 15px;
+  padding-left: 12px;
 }
 
 .logo-b {
@@ -70,4 +77,23 @@ p {
 .logo-Nombre {
   width: 12%;
   transform: translateY(-7px);
+}
+
+.boton-llamada {
+  display: block; /* Para centrarlo horizontalmente */
+  padding: 20px 20px;
+  background-color: #ffffff; /* Azul */
+  color: #000000;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  width: 70%;
+  margin-top: 60px;
+  margin-left: 15px;
+}
+
+.boton-llamada:hover {
+  background-color: #000000;
+  color: #ffffff;
 }/*# sourceMappingURL=main.css.map */
