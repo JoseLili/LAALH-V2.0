@@ -68,6 +68,10 @@ p {
   padding-left: 12px;
 }
 
+.ContactosInv {
+  color: black;
+}
+
 .logo-b {
   width: 15%;
   padding-top: 5px;
@@ -96,4 +100,12 @@ p {
 .boton-llamada:hover {
   background-color: #000000;
   color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.ContactosInv {
+  font-size: 24px;
 }/*# sourceMappingURL=main.css.map */
