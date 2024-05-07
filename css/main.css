@@ -27,6 +27,12 @@ header {
   height: 100vh;
 }
 
+@media only screen and (max-width: 1920px) {
+  .sec2 {
+    background: url(../../src/img/exitobk.png);
+    background-size: cover;
+  }
+}
 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -157,6 +163,11 @@ p {
   text-align: center;
 }
 
+@media only screen and (max-width: 320px) {
+  .contactosDatos {
+    font-size: 20px;
+  }
+}
 .logo-b {
   width: 15%;
   padding-top: 5px;
@@ -177,6 +188,51 @@ p {
   padding: 10px;
 }
 
+@media only screen and (max-width: 768px) {
+  .logo-b {
+    width: 10%;
+    padding-top: 5px;
+    padding-left: 15px;
+  }
+  .logo-Nombre {
+    width: 9%;
+    transform: translateY(-7px);
+  }
+  .imgContacto {
+    padding-top: 40px;
+    width: 10%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .logo-b {
+    width: 7%;
+    padding-top: 5px;
+    padding-left: 15px;
+  }
+  .logo-Nombre {
+    width: 7%;
+    transform: translateY(-7px);
+  }
+  .imgContacto {
+    padding-top: 40px;
+    width: 10%;
+  }
+}
+@media only screen and (max-width: 1920px) {
+  .logo-b {
+    width: 4%;
+    padding-top: 5px;
+    padding-left: 15px;
+  }
+  .logo-Nombre {
+    width: 4%;
+    transform: translateY(-7px);
+  }
+  .imgContacto {
+    padding-top: 40px;
+    width: 5%;
+  }
+}
 .boton-llamada {
   display: block; /* Para centrarlo horizontalmente */
   padding: 20px 20px;
@@ -204,6 +260,16 @@ a {
   font-size: 24px;
 }
 
+@media only screen and (max-width: 768px) {
+  .boton-llamada {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 1920px) {
+  .boton-llamada {
+    width: 40%;
+  }
+}
 .contentServicios {
   background-color: #212A3E;
 }
@@ -224,6 +290,12 @@ a {
   text-align: justify;
 }
 
+@media only screen and (max-width: 1920px) {
+  .cards-section {
+    padding-left: 800px;
+    padding-right: 800px;
+  }
+}
 .containerContactos {
   text-align: center;
 }

@@ -18,3 +18,58 @@
 .imgFooter{
     padding: 10px;
 }
+
+@media only screen and (max-width: 768px) {
+    .logo-b{
+        width: 10%;
+        padding-top: 5px;
+        padding-left: 15px;
+    }
+
+    .logo-Nombre {
+        width: 9%;
+        transform: translateY(-7px);
+    }
+    
+    .imgContacto{
+        padding-top: 40px;
+        width: 10%;
+    }
+    
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .logo-b{
+        width: 7%;
+        padding-top: 5px;
+        padding-left: 15px;
+    }
+
+    .logo-Nombre {
+        width: 7%;
+        transform: translateY(-7px);
+    }
+    
+    .imgContacto{
+        padding-top: 40px;
+        width: 10%;
+    }
+  }
+
+  @media only screen and (max-width: 1920px) {
+    .logo-b{
+        width: 4%;
+        padding-top: 5px;
+        padding-left: 15px;
+    }
+
+    .logo-Nombre {
+        width: 4%;
+        transform: translateY(-7px);
+    }
+    
+    .imgContacto{
+        padding-top: 40px;
+        width: 5%;
+    }
+  }
