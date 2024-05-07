@@ -173,6 +173,10 @@ p {
   width: 20%;
 }
 
+.imgFooter {
+  padding: 10px;
+}
+
 .boton-llamada {
   display: block; /* Para centrarlo horizontalmente */
   padding: 20px 20px;
@@ -246,4 +250,30 @@ a {
   width: 70%;
   padding-top: 19px;
   padding-left: 19px;
+}
+
+.footer1 {
+  background-color: #033153;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer2 {
+  background-color: #0A1331;
+  text-align: center;
+}
+
+.nombreFooter {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.enlacesFooter {
+  color: azure;
+}
+
+.enlacesFooter a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 400;
 }/*# sourceMappingURL=main.css.map */

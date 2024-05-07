@@ -1,0 +1,27 @@
+@import "../base/colors";
+
+.footer1{
+    background-color: $fondoFooter1;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer2{
+    background-color: $fondoFooter2;
+    text-align: center;
+}
+
+.nombreFooter{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.enlacesFooter{
+    color: azure;
+}
+
+.enlacesFooter a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 400;
+}
