@@ -33,6 +33,12 @@ h1 {
   font-style: normal;
 }
 
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
 p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -49,6 +55,10 @@ a {
 
 h1 {
   color: #FFFFFF;
+}
+
+h2 {
+  color: #000000;
 }
 
 .tituloResalte {
@@ -69,6 +79,14 @@ p {
 
 .tituloServicios {
   color: #FFFFFF;
+}
+
+.parrafoCard {
+  color: #000000;
+}
+
+.parrafoCard2 {
+  color: #000000;
 }
 
 .parrafoInicial {
@@ -204,4 +222,28 @@ a {
 
 .containerContactos {
   text-align: center;
+}
+
+.containerExito {
+  text-align: justify;
+}
+
+.tituloCard {
+  font-size: 32px;
+  padding-top: 20px;
+  padding-left: 28px;
+}
+
+.parrafoCard {
+  font-style: italic;
+  width: 70%;
+  padding-top: 19px;
+  padding-left: 19px;
+}
+
+.parrafoCard2 {
+  font-style: italic;
+  width: 70%;
+  padding-top: 19px;
+  padding-left: 19px;
 }/*# sourceMappingURL=main.css.map */
