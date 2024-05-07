@@ -16,6 +16,17 @@ header {
   height: 100vh;
 }
 
+.sec2 {
+  background: url(../../src/img/exitobk.png);
+  background-position: bottom center;
+  background-size: cover;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+}
+
 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -44,6 +55,14 @@ h1 {
   color: #D1A103;
 }
 
+.sec2-Titulo {
+  color: #FFFFFF;
+}
+
+.sec2_tituloResalte {
+  color: #D1A103;
+}
+
 p {
   color: #FFFFFF;
 }
@@ -68,8 +87,23 @@ p {
   padding-left: 12px;
 }
 
+.sec2-Titulo {
+  text-align: center;
+}
+
+.sec2_tituloResalte {
+  text-align: center;
+}
+
 .ContactosInv {
   color: black;
+}
+
+.contactosDatos {
+  text-decoration: underline;
+  color: black;
+  padding-bottom: 40px;
+  font-weight: 400;
 }
 
 .logo-b {
@@ -81,6 +115,11 @@ p {
 .logo-Nombre {
   width: 12%;
   transform: translateY(-7px);
+}
+
+.imgContacto {
+  padding-top: 40px;
+  width: 20%;
 }
 
 .boton-llamada {
@@ -108,4 +147,12 @@ a {
 
 .ContactosInv {
   font-size: 24px;
+}
+
+.contentServicios {
+  background-color: #212A3E;
+}
+
+.containerContactos {
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
