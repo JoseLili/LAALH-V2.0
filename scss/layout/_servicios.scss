@@ -3,3 +3,19 @@
 .contentServicios{
     background-color: $fondoSecundario;
 }
+
+.cards-section{
+    text-align: center;
+    padding: 50px;
+}
+
+.servicio-card{
+    background-color: $fondoTarjeta;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.servicio-card p {
+    text-align: justify;
+}
